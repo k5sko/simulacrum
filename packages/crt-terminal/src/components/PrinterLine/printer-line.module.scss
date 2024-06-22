@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.commandLine {
+  margin: $command-line-margin;
+}
+
+.textLine {
+  margin: 0 size(5) 0 0;
+}
+
+.inlineTextLine {
+  margin: 0;
+  display: inline;
+  word-break: break-all;
+}

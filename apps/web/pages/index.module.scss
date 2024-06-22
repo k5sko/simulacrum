@@ -1,0 +1,55 @@
+.mainContainer {
+  width: 96vw;
+  height: 80vh;
+}
+
+.buttonsContainer {
+  margin-top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  margin: 20px 10px 0;
+  padding: 0 10px;
+  display: inline-block;
+  min-width: 100px;
+  height: 40px;
+  color: #d0fc7e;
+  background-color: transparent;
+  border: 1px solid #d0fc7e;
+  cursor: pointer;
+
+  &:hover {
+    color: #111010;
+    background-color: #d0fc7e;
+  }
+}
+
+.customLine {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@keyframes blink {
+  25% {
+    color: #a2a2ca;
+  }
+
+  50% {
+    color: #e9b97b;
+  }
+
+  75% {
+    color: #e97bb2;
+  }
+
+  100% {
+    color: #d0fc7e;
+  }
+}
+
+.customWord {
+  animation: blink 4s steps(1) infinite;
+}
